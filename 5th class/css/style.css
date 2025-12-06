@@ -25,7 +25,15 @@ background-color: rgb(23, 23, 24);
 
 #bottom {
 margin-top: 80vh;
-width: 80%
+width: 80%;
 height: 100vh;
 background-color: blue;
+}
+
+#nav ul{
+list-style: none ;
+}
+
+.nav li {
+    list-style: none;
 }

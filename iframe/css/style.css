@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+   
+}
+
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#main rightnav{
+    width: 90%;
+    height: 100vh;
+    background-color: rgb(0, 255, 136);
+    display: block;
+}
+
+#rightnav{
+    width: 10%;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: block;
+}
+
+#ifram{
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(235, 149, 20);
+    display: block;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="user name"></label>
+    <input type="text" id="name" /> <br />
+
+    <div id="div" style="display: none">
+        <label for="">Password</label>
+        <input type="password" id="password" /><br />
+    </div>
+
+    <button onclick="time()">log in</button><br />
+
+    <span id="result"></span>
+
+    <script>
+        function time() {
+            let name = document.getElementById("name").value;
+
+            if (name == "java") {
+                document.getElementById("div").style.display = "block";
+
+                if {
+                    document.getElementById("result").style.display = "green";
+                } else {
+                    document.getElementById("result").innerText = "passwoed incorrect";
+                    document.getElementById("result").style.color = "red";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

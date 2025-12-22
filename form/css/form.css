@@ -1,0 +1,20 @@
+#div {
+    width: 100%;
+    padding: 25px;
+    align-items: center;
+    height: 100%;
+}
+
+.form {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(15, 14, 14);
+    padding: 15px; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+br{
+    margin-top: 5px;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#table{
+    
+    width: 10;
+    border-collapse: collapse;
+
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+#sidebar{
+    width: 10%;
+    height: 100vh;
+    float: left;
+    background-color: aqua;
+}
+
+#main{
+    width: 90%;
+    height: 100vh;
+}

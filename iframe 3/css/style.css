@@ -4,15 +4,21 @@
 }
 
 #table{
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
 
-#table,tr,th,td {
+#table,tr,th,td{
     border: 1px solid rgb(235, 8, 8);
     background-color: rgb(145, 199, 155);
     border-collapse: collapse;
+}
+
+#form{
+    padding: 0px;
+    /* width: auto;
+    height: auto; */
 }
 
 #sidebar {

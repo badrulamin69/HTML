@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let Numbers = [150, 20, 30, 10, 80, 60, 90, 15, 25, 250, 5, -5];
+
+        for (let i = 0; < Numbers.length -1; i++) {
+            for (let j =0; j < Numbers.length - i - 1; j++) {
+                if(Numbers[j] >=Numbers [ j+ 1 ]) {
+                    let temp = Numbers[j];
+                    Numbers[j] = Numbers[j + 1];
+                    Numbers[j + 1] = temp;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
